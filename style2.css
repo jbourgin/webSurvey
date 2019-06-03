@@ -1,0 +1,41 @@
+body
+{
+	background: #e6e6e6;
+}
+
+p, .justified
+{
+    font-size: 15px; /* Paragraphes de 14 pixels */
+	font-family: Arial, Verdana, sans-serif;
+	text-align: center;
+	text-align: justify;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+}
+
+input[type=text], select, textarea {
+    width: 20%; /* Full width */
+    text-align: justify;
+    border-radius: 4px; /* Rounded borders */
+    margin: 1% 0% 1% 20%;
+}
+
+
+input[type=radio],
+input[type=checkbox]
+{
+    text-align: justify;
+    /*display:inline;*/
+    margin-left: 20%;
+	margin: 1% 1% 1% 20%;
+    vertical-align: middle;
+}
+
+.item {white-space: nowrap;display:inline  }
+
+.buttonHolder{
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}

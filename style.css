@@ -1,0 +1,64 @@
+/* We draw the fantastic background for the table */
+body
+{
+	background: linear-gradient(180deg, #e6e6e6 10%, white 10%);
+    color: black;
+}
+
+p, .justified
+{
+    font-size: 15px; /* Paragraphes de 14 pixels */
+	font-family: Arial, Verdana, sans-serif;
+	text-align: center;
+	text-align: justify;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+}
+
+:required
+{
+    background-color: white;
+}
+
+table, .fixed
+{
+    width: 1000px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	table-layout:fixed; 
+}
+
+table.fixed td { overflow: hidden; }
+
+input, .centered
+{
+	text-align: center;
+    width: 70px;
+}
+
+tr:nth-child(even) {background-color: #e6e6e6;}
+
+.buttonHolder{
+    text-align: center;
+}
+
+.main_part {
+	border-top: 6px;
+	border-top-style: solid;
+	border-top-color: grey;
+	padding: 18px;
+    display: block;
+	background: white;
+	border-radius: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+}
+
+progress {
+  width: 800px;
+  height: 20px;
+  margin-top: 2%;
+}
